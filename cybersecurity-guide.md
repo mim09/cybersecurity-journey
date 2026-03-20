@@ -65,7 +65,9 @@ SELECT * FROM users WHERE username='administrator'
 ---
 
 #### ⬜ Lab 3 — UNION attack: number of columns
-*Notes to fill in after completing*
+Technique: ' UNION SELECT NULL,NULL,NULL--
+Keep adding NULL until page loads without error
+Result: Query returns 3 columns 
 
 ---
 
